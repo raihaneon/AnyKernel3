@@ -4,17 +4,18 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=
-kernel.compiler=
-kernel.made=
+kernel.string=RedznnX
+kernel.compiler=AOSP clang
+kernel.made=Redznn
 message.word=
 do.devicecheck=1
 do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=
-supported.versions=
+device.name1=spes
+device.name2=spesn
+supported.versions=11.0-13.0
 supported.patchlevels=
 supported.vendorpatchlevels=
 '; } # end properties
@@ -28,7 +29,7 @@ set_perm_recursive 0 0 750 750 $ramdisk/init* $ramdisk/sbin;
 } # end attributes
 
 # boot shell variables
-block=;
+block=boot;
 is_slot_device=auto;
 ramdisk_compression=auto;
 patch_vbmeta_flag=auto;
