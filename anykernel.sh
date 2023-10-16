@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=topaz
+kernel.string=uvite
 kernel.compiler=AOSP clang
 kernel.made=CHRISL7
 message.word=
@@ -15,7 +15,7 @@ do.cleanup=1
 do.cleanuponabort=0
 device.name1=spes
 device.name2=spesn
-supported.versions=11.0-13.0
+supported.versions=11.0-14.0
 supported.patchlevels=
 supported.vendorpatchlevels=
 '; } # end properties
