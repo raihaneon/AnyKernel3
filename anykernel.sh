@@ -6,7 +6,7 @@
 properties() { '
 kernel.string=Firefly
 kernel.made=raihaneon
-kernel.compiler=clang
+kernel.compiler=AOSP clang
 message.word=
 do.devicecheck=1
 do.modules=0
